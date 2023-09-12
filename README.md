@@ -71,3 +71,53 @@
 //     Number(prompt('digite o segundo numero'))
 //  ));
 // }
+let paisDeOrigem 
+if (paisDeOrigem === 'Brasil'){
+    console.log('Brasileiro')
+}else if (paisDeOrigem ==='EUA'){
+    console.log('NORTE AMERICANO')
+}else if (paisDeOrigem === 'INGLATERRA'){
+    console.log('ingles')
+}else if (paisDeOrigem === 'frança'){
+    console.log('Françes')
+}else if (paisDeOrigem === 'italia'){
+    console.log('italiano')
+}else if (paisDeOrigem === 'canáda'){
+    console.log('canadense')
+}else {
+    console.log('nacionalidade não encontrada')
+}
+
+switch (paisDeOrigem){
+    case 'Brasil':
+    console.log('Brasileiro')
+    break
+    case 'EUA':
+    console.log('norte americano')
+    break
+    case 'inglaterra':
+        console.log('ingles')
+        break
+        default : 
+        console.log('nacionalidade não encontrada')
+        break
+
+}
+
+let PokemonUltra = prompt("Digite um pokemon")
+
+switch (PokemonUltra){
+    case 'Virizon':
+    console.log('planta e veneno')
+    break
+    case 'Reshiram':
+    console.log('Fogo')
+    break
+    case 'Bubble Beam':
+        console.log('Água')
+        break
+        default : 
+        console.log('nacionalidade não encontrada')
+        break
+
+}
